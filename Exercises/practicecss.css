@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+body {
+    text-align: center;
+}
+
+.google {
+    /*display: block;*/
+    /*margin:auto;*/
+    /*position: absolute;*/
+    margin-top: 100px;
+    left: 50%;
+    /*margin-right: 50%;*/
+
+    /*transform: translate(-50%, -50%) }*/
+}
+
+input {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    display: block;
+    margin-left: 550px;
+    margin-right: 65px;
+    width: 420px
+
+}
+
+button {
+        /*width: 150px;*/
+        font-size: 0.8em;
+        font-weight: bold;
+        padding: 10px;
+        background-color: #EFFAF3;
+        border: 1px solid #EFFAF3;
+        /*font-family: 'Open Sans', sans-serif;
+        margin-top: 25px;
+        margin-bottom: 45px;
+        diplay: block;
+        height: 10px;
+        color: #f0f0f0;*/
+}
+
+.logo {
+    background-size: 2em;
+    max-width: 100%;
+    height: auto;
+    width: auto; /* ie8 */
+}
