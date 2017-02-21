@@ -21,7 +21,12 @@ input {
     display: block;
     margin-left: 550px;
     margin-right: 65px;
-    width: 420px
+    width: 420px;
+    height: 50;
+    background-size: 1.2em;
+    background-image: url("logo.png");
+    background-repeat: no-repeat;
+    background-position: right;
 
 }
 
@@ -40,9 +45,18 @@ button {
         color: #f0f0f0;*/
 }
 
+.height {
+    height: 25px;
+}
+
 .logo {
+
     background-size: 2em;
-    max-width: 100%;
-    height: auto;
-    width: auto; /* ie8 */
+    max-width: 10%;
+    height: 20px;
+    width: 15px;
+    margin-left: 430px;
+    /*margin-bottom: 350px;*/
+
+
 }
