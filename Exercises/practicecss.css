@@ -2,6 +2,7 @@
 
 body {
     text-align: center;
+    
 }
 
 .google {
@@ -21,6 +22,7 @@ input {
     display: block;
     margin-left: 550px;
     margin-right: 65px;
+    width: 100%;
     width: 420px;
     height: 50;
     background-size: 1.2em;
@@ -49,7 +51,7 @@ button {
     height: 25px;
 }
 
-.logo {
+/*.logo {
 
     background-size: 2em;
     max-width: 10%;
@@ -59,4 +61,4 @@ button {
     /*margin-bottom: 350px;*/
 
 
-}
+}*/

@@ -9,15 +9,7 @@ p {
   font-family: 'Times New Roman', serif;
   font-size: 20px;
 
-
-}
-
-h1 h2 h3{
-    color: #202020;
-}
-
-h1{
-
+h1 {
   font-family: medium-content-sans-serif-font,"Lucida Grande","Lucida Sans Unicode","Lucida Sans",Geneva,Arial,sans-serif;
   font-size: 40px;
 }
@@ -25,11 +17,13 @@ h1{
 h2{
   font-family: medium-content-sans-serif-font,"Lucida Grande","Lucida Sans Unicode","Lucida Sans",Geneva,Arial,sans-serif;
   font-size: 30px;
+  color: #202020;
 }
 
 h3{
   font-family: medium-content-sans-serif-font,"Lucida Grande","Lucida Sans Unicode","Lucida Sans",Geneva,Arial,sans-serif;
   font-size: 20px;
+  color: #202020;
 }
 
 .content {
