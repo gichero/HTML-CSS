@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>CSS-Tricks</title>
+        <link href = "mockup.css" rel="stylesheet"/>
+    </head>
+    <body>
+
+        <div id = "header">
+            <img id = "hamburger" src = "hamburger.png"/>
+            <img id = "logo" src = "logo.png"/>
+            <img id = "search" src = "search.png" />
+            <input class="input" type="text" />
+        </div>
+
+        <div id = "leftbar">
+            <div id = "intro">
+                <h1>Do responsive sites have to be so tall on mobile?</h1>
+                <img id = "link" src = "link.png" />
+            </div>
+
+            <p id = "author"># FEBRUARY 22, 2017 BY <span>CHRIS COYER</span></p>
+            <p>Kevin Vigneault:</p>
+
+
+                <div id="block">
+                    <p>
+                    <img src= "blockquote.jpg" /><br />
+                    I don't believe that the overall page length itself is inherently problematic.
+                    I have noticed though that in many responsive designs, purposeful groupings of
+                    content are easy to spot on larger screens, but get muddled when things start to
+                    stack on mobile screens.
+                    <br />
+                    <img src= "blockquote2.jpg" />
+                    </p>
+                </div>
+
+            <p>
+                This is probably mostly a problem on "content" sites in which you smash
+                things down into the ol' tube of content. I don't mind the tube,
+                but I think Kevin is doing some smart thinking here. There are plenty of
+                different patterns that can happen while tubizing, and it's probably
+                not thought about enough.
+            </p>
+            <p>
+                This site is particularly guilty. A quick
+                document.documentElement.offsetHeight test showed 14749px,
+                more than double the height of an example Kevin pointed out that was a
+                bit excessive.
+            </p>
+        </div>
+
+        <div id = "rightbar">
+            <img id = "gethired" src = "get-hired.png"/>
+            <img id = "hired" src = "hired.jpg" />
+        </div>
+
+
+
+    </body>
+</html>

@@ -1,0 +1,43 @@
+#header {
+    position: absolute;
+    height: 10%;
+    width: 100%;
+    background-color: orange;
+}
+
+#leftbar {
+    position: absolute;
+    left: 0;
+    top: 10%;
+    height: 80%;
+    width: 20%;
+    background-color: yellow;
+    overflow: auto;
+}
+
+#rightbar {
+    position: absolute;
+    left: 80%;
+    top: 10%;
+    height: 80%;
+    width: 20%;
+    background-color: pink;
+}
+
+#footer {
+    position: absolute;
+    left: 0px;
+    top: 90%;
+    height: 10%;
+    width: 100%;
+    background-color: lightgreen;
+}
+
+#content {
+    position: absolute;
+    left: 20%;
+    top: 10%;
+    width: 60%;
+    height: 80%;
+    background: lightblue;
+}

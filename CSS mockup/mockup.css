@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css?family=Amiko');
+
+*{
+    box-sizing: border-box;
+}
+
+p{
+    margin-left: 35px;
+    font-family: 'Amiko', sans-serif;
+}
+
+h1{
+    margin-left: 35px;
+    font-family: impact;
+}
+
+#header {
+    height: 13%;
+    width: 100%;
+    overflow: auto;
+    padding: 20px;
+    border-bottom: 10px solid orange
+}
+
+#hamburger {
+    float: left;
+    top: 40px;
+    width: 57px;
+
+}
+
+#logo {
+    float:left;
+    top: 60px;
+    width: 245px;
+    margin-left: 30px;
+}
+
+#search {
+    float: right;
+    top: 60px;
+    width: 50px;
+    margin-top: 2px;
+}
+
+.input {
+    float: right;
+    margin-right: 20px;
+    width: 200px;
+    height: 35px;
+    margin-top: 2.5px
+}
+
+#leftbar {
+    padding: 20px;
+    float: left;
+    left: 0px;
+    top: 13%;
+    height: 70%;
+    width: 70%;
+    border: 12px solid #444443;
+}
+
+#rightbar {
+    float:right;
+    left: 70%;
+    height: 70%;
+    width: 30%;
+    background-color: #F0F0F0;
+}
+
+#gethired {
+    /*float: right;*/
+    margin-left: 30px;
+    margin-top: 20px;
+    top: 50px;
+    width: 300px;
+}
+
+#link {
+    float:right;
+    width: 40px;
+    margin-top:10px;
+    margin-right: 10px;
+}
+
+#intro {
+    margin-left: 10px
+}
+
+#block {
+    margin-left: 20px;
+}
+
+#hired {
+    top: 100px;
+    width: 300px;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+#custom {
+    font-family: arial;
+    font-weight: bold;
+    font-size: 13px;
+    margin-left: 95px;
+}
+
+#forms {
+    margin-left: 30px;
+}
