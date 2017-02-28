@@ -72,8 +72,9 @@
     font-family: 'Architects Daughter', X-LocaleSpecific,sans-serif;
     text-align: center;
     display: inline;
-    background: url(background1.png);
+    background: url(images/background1.png);
     background-size: cover;
+    background-position-x: center;
 
 
 }
@@ -168,9 +169,9 @@ table{
 .fox{
     margin-bottom: 0;
     text-align: center;
-    background: url(background2.png);
+    background: url(images/background2.png);
     background-size: cover;
-    background-position: center;
+    background-position-x: center;
     height: 850px;
 }
 
@@ -223,4 +224,145 @@ table{
 
 .info p {
     font-size: 17px;
+}
+
+/*-----------------------------------Footer--------------------------------------------*/
+
+.love {
+    height: 200px;
+    background-color: #DC412C;
+    color: white;
+    padding: 40px;
+}
+.newsletter img, .love-web {
+    float: left;
+}
+.newsletter img {
+    height: 100px;
+}
+
+
+.love-web {
+    padding-left: 30px;
+    width: 240px;
+}
+.love-web h3 {
+    margin-top: 0;
+    font-weight: 900;
+    font-style: italic;
+    font-size: 32px;
+}
+.love-web p {
+    font-size: 19px;
+}
+.sign-up input, .sign-up button {
+    display: block;
+    width: 310px;
+    height: 43px;
+    border-radius: 5px;
+    border: 3px solid white;
+}
+
+.sign-up button {
+    height: 48px;
+    background-color: #DC412C;
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+.sign-up input{
+    color: grey;
+    padding-left: 15px;
+    font-size: 16px;
+}
+
+.footer ul{
+    list-style-type: none;
+}
+.footer img {
+    height: 31px;
+    padding-bottom: 5px;
+}
+
+.footer {
+    color: white;
+    height: 200px;
+    background: #666666;
+    padding: 40px;
+}
+.footer p {
+    padding-top: 5px;
+}
+.footer a {
+    color: #68C4D8;
+}
+.form select {
+    color: black;
+    width: 163px;
+    margin-top: 13px;
+}
+
+@media (max-width: 991px) {
+    .navbar-brand img {
+        height: 75px;
+    }
+
+    .navbar-collapse, .container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header {
+        height: 75px;
+    }
+
+    .navbar-toggle {
+        float: left;
+        height: 75px;
+        margin-top: 0;
+        margin-bottom: 0;
+
+    }
+    .intro h3 {
+        font-size: 58px;
+
+    }
+    .intro p{
+        padding: 0;
+    }
+
+    .intro {
+        padding: 0 20px;
+    }
+
+    .column img {
+        height: 273px;
+    }
+    .icon {
+
+        display: none;
+    }
+
+    .column li {
+        text-align: center;
+    }
+    .column ul {
+        padding-bottom: 60px;
+        margin-bottom: -10px;
+    }
+    .mountain {
+        background-position: right;
+    }
+    .info p {
+        padding: 40px;
+    }
+    .love {
+        height: 400px;
+        text-align: center;
+    }
+    .newsletter img, .love-web {
+        float: none;
+        padding: 8px;
+    }
+    .love p, .love h3 {
+        display: block;
+    }
+    .love-web, .sign-up {
+        margin: 0 auto;
+    }
 }

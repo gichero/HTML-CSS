@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <title>Survey</title>
+
+    </head>
+    <body>
+        <div class = "container">
+
+
+            <form class = "form-horizontal "action = "submit.php" method = "POST">
+
+                <div class="form-group">
+
+                    <label>What is your name?</label>
+                    <input type="text" name="name"/>
+                </div>
+
+                <div class="form-group">
+                    <label>What is your gender?</label>
+                    <label>Male <input type="radio" name = "gender" value = "male" /></label>
+                    <label>Female <input type="radio" name = "gender" value = "female" /></label>
+                </div>
+
+                <div class="form-group">
+                    <label>What is your password?</label>
+                    <input type="password" name = "pwd" />
+                </div>
+
+                <div class="form-group">
+                    <label>Check all foods that you like:</label>
+                    <label> Tacos <input type = "checkbox" name = "tacos" value = "on" /></label>
+                    <label> Fried rice <input type = "checkbox" name = "Fried rice" value = "on" /></label>
+                    <label> Catfish <input type = "checkbox" name = "catfish" value = "on" /></label>
+                    <label> Sandwiches <input type = "checkbox" name = "sandwiches" value = "on" /></label>
+                    <label> Burgers <input type = "checkbox" name = "burgers" value = "on" /></label>
+                    <label> Fries <input type = "checkbox" name = "fries" value = "on" /></label>
+                </div>
+
+                <div class= "form-group">
+                    <label>Which operating system do you use?</label>
+                    <select name= "operating system">
+                        <option value="windows">Windows</option>
+                        <option value="osx">OSX</option>
+                        <option value="linux">Linux</option>
+                        <option value="plan 9">Plan 9</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+
+                <div class= "form-group">
+                    <label>Do you have any questions?</label>
+                    <textarea name="comment"></textarea>
+                </div>
+
+                <div class= "form-group">
+                    <button type="submit">Submit</button>
+                </div>
+
+            </form>
+        </div>
+    </body>
+</html>
