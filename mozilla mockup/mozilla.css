@@ -1,0 +1,184 @@
+
+
+*{
+    box-sizing: border-box;
+}
+
+.cf:before,
+.cf:after {
+   content: " ";
+   display: table;
+}
+
+.cf:after {
+   clear: both;
+}
+
+#banner{
+    background-color: #D93A33;
+    height: 55px;
+}
+
+#ul1 {
+    list-style-type: none;
+    float: right;
+    margin-right: 90px;
+    position: relative;
+    /*top: -1px;*/
+}
+
+.li1{
+    display: inline;
+    padding: 14px 16px;
+    float: left;
+    color: white;
+    text-align: center;
+    margin-top: 8px;
+    box-sizing: border-box;
+    border-right: 1px solid white;
+
+
+}
+
+#logo {
+    height: 45px;
+    margin-left: 63px;
+    margin-top: 5px;
+}
+
+#download{
+    background-color: #77AE49;
+    margin-top: 0px;
+    padding-top: 21px;
+
+}
+
+.remove {
+    border-right: 0px;
+}
+
+#background1{
+    height: 900px;
+}
+
+
+/*---------------------ROW1-----------------------*/
+
+/*color: #2762a9;*/
+    /*font-family: 'Architects Daughter',X-LocaleSpecific,sans-serif;*/
+#heart{
+    float: left;
+    color: #2762a9;
+    font-family: 'Architects Daughter', X-LocaleSpecific,sans-serif;
+    text-align: center;
+    display: inline;
+    background: url(background1.png);
+    background-size: cover;
+
+
+}
+
+.heading{
+    /*position: relative;*/
+    left: 50px;
+    margin-top: 150px;
+
+}
+
+h1{
+    font-weight: bold;
+    font-size:  6em;
+}
+
+h3{
+
+    font-size: 2.5em;
+}
+
+/*---------------------ROW2-----------------------*/
+
+
+#left{
+    background-color: white;
+    text-align: center;
+}
+
+#right{
+    background-color: #008B89;
+    #background-color: #528A88;
+    color: white;
+    text-align: center;
+}
+#heading2{
+        font-size: 1.5em;
+        font-weight: bold;
+        font-family: Helvetica;
+        text-align: center;
+}
+
+#mlogo{
+    margin-top: 50px;
+    height: 175px;
+
+}
+
+#vr{
+    margin-top: 50px;
+    height: 175px;
+}
+
+.paragraph1{
+    text-align: center;
+    padding: 20px 20px;
+    font-size: 1.5em;
+}
+
+ .imgl{
+     height: 30px;
+     text-align: center;
+ }
+
+.imgr{
+    height: 30px;
+     text-align: center;
+}
+
+#vrgoggles{
+    height: 20px;
+}
+
+table{
+    height: 50px;
+}
+
+.align{
+    text-align: left;
+    line-height: 2.5em;
+    padding-left: 200px;
+    font-size: 1.5em;
+    color: #66AAE5;
+    text-decoration: underline;
+}
+
+.innovations {
+    color: white;
+    text-decoration: underline;
+}
+
+#fox{
+    float: left;
+    color: #2762a9;
+    font-family: Helvetica;
+    text-align: center;
+    display: inline;
+    background: url(background2.png);
+    background-size: cover;
+}
+
+.heading2{
+    left: 50px;
+    margin-top: 800px;
+    font-weight: bold;
+    font-size: 1.5em;
+    color: white;
+}
