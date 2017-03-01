@@ -1,24 +1,39 @@
 
 
-@import url('https://fonts.googleapis.com/css?family=Lato');
+@import url('https://fonts.googleapis.com/css?family=Assistant')
 
 *{
     box-sizing: border-box;
 }
 
+.cf:before,
+.cf:after {
+   content: " ";
+   display: table;
+}
+
+.cf:after {
+   clear: both;
+}
+
 
 body {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Assistant', sans-serif;
     background-image: url("agsquare.png");
     background-repeat: repeat;*/
-    font: black;
-    border: 15px solid gray;
+
 
 }
 
-.container{
-    height: 100%;
+.bio {
+    float:right;
+    background-color: pink;
 
+}
+
+.menu {
+    float: left;
+    background-color: lightblue;
 }
 
 #intro{
@@ -27,9 +42,16 @@ body {
     float: right;
 
 }
-/*.row {
-    background-color: lightblue;
-}*/
+
+#name{
+    font-size: 10em;
+    font-weight: 700;
+}
+
+#greeting{
+    font-size: 5em;
+    font
+}
 
 .bio {
     text-align: center;
@@ -41,7 +63,6 @@ ul {
     padding: 0;
     width: 200px;
     background-color: #f1f1f1;
-
 }
 
 li {
